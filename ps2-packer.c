@@ -585,7 +585,7 @@ int file_exists(const char * fname) {
 }
 
 int main(int argc, char ** argv) {
-    char c;
+    int c;
     u32 base = 0;
 #ifndef PS2_PACKER_LITE
     char buffer[BUFSIZ + 1];
